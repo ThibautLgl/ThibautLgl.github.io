@@ -18,24 +18,20 @@ h1 {
        url('../fonts/montserrat-v15-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
 }
 h2 {
-  font-family: 'Montserrat';
+  font-family: 'Josefin Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/montserrat-v15-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('../fonts/montserrat-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/montserrat-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/montserrat-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/montserrat-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/montserrat-v15-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+ 
 }
 h3{
 font-family: 'Arial', 'Helvetica', sans-serif;
 }
 li{
-font-family: 'Arial', 'Helvetica', sans-serif;
+font-family: 'Josefin Sans', sans-serif
 }
-
+p{
+  font-family: 'Arial', 'Helvetica', sans-serif;
+}
 
 
 

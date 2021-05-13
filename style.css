@@ -1,49 +1,10 @@
-
-
-
-
-
-
-/* montserrat-regular - latin */
-h1 {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/montserrat-v15-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('../fonts/montserrat-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/montserrat-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/montserrat-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/montserrat-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/montserrat-v15-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
-}
-h2 {
-  font-family: 'Josefin Sans', sans-serif;
-  font-style: normal;
-  font-weight: 400;
- 
-}
-h3{
-font-family: 'Arial', 'Helvetica', sans-serif;
-}
-li{
-font-family: 'Josefin Sans', sans-serif
-}
-p{
-  font-family: 'Arial', 'Helvetica', sans-serif;
-}
-
-
-
-
-  .flip-card {
+ .flip-card {
     background-color: transparent;
     width: 700px;
     height: 700px;
     border: 1px solid #f1f1f1;
     perspective: 1000px; 
   }
-
 
   .flip-card-inner {
     position: relative;
@@ -72,10 +33,67 @@ p{
   }
 
   .flip-card-back {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(1, 37, 36);
     color: white;
     transform: rotateY(180deg);
   }
+
+img {
+    border : 5px solid #000000;
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/montserrat-v15-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/montserrat-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/montserrat-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/montserrat-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/montserrat-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/montserrat-v15-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+ 
+}
+p{
+font-family: 'Arial', 'Helvetica', sans-serif;
+}
+li{
+font-family: 'Josefin Sans', sans-serif
+}
+p{
+  font-family: 'Arial', 'Helvetica', sans-serif;
+}
+
+
+
+
+ 
 
 
 
